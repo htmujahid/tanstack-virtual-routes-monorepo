@@ -1,5 +1,11 @@
 {
-  "name": "@e1p/frontend",
+  "name": "@repo/frontend",
   "version": "0.0.1",
-  "private": true
+  "private": true,
+  "scripts": {
+    "dev": "vite --port 3000",
+    "build": "vite build && tsc --noEmit",
+    "serve": "vite preview",
+    "start": "vite"
+  }
 }
